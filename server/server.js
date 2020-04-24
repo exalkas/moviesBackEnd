@@ -6,7 +6,7 @@ const path = require('path');
 const publicPath = path.join(__dirname, '..', 'public');
 
 //////////////////////////////////
-// DB & Mongoose initialization & setup 
+// DB initialization & setup 
 //////////////////////////////////
 const connectDB = require('./config/db');
 connectDB(); // db connect
